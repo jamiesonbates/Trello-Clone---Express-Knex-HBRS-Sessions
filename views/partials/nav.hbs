@@ -1,0 +1,9 @@
+<header>
+  <h1>ToDoly</h1>
+
+  {{#if userId}}
+    <form action="/token?_method=delete" method="POST">
+      <button type="submit" class="btn signout-btn">Sign Out</button>
+    </form>
+  {{/if}}
+</header>
