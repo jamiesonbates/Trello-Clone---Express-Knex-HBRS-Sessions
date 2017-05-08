@@ -276,6 +276,10 @@ ul h2 {
   color: white;
 }
 
+.signout-btn:hover {
+  background-color: #C9843E;
+}
+
 .exit-btn {
   border: none;
   background-color: inherit;
